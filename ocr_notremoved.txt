@@ -1,0 +1,508 @@
+
+
+Step 1:
+
+
+
+Step 2:
+
+
+
+Step 3:
+
+ile Edit Shell Debug Options Window Help
+
+Python 3.6.9 (v5.6 .9:% 209c0932b4, Mar 28 201
+Type “copynight",, "credaits” om “License ()”
+eS
+
+==== RESTART: E:\PYTHON PROGRAM\BLOG\python
+Enter Any Number for a =25
+
+Enter Any Number for b =30
+
+sum Of 25> and 30 aa 55
+
+>>> |
+
+Step 4:
+
+Ls Pyth
+
+File Ec
+Pytl
+Typ
+>>>,
+Ent¢
+Ent¢
+Sum
+>>>
+
+Step 5:
+
+
+
+Step 7:
+
+n=20
+m=30
+p=n+m
+print (p)File Edit Format Run Options Window Help
+
+Step 8:
+
+n=20 Python Shell
+m=30 Check Module Alt+X
+p=n +m Run Module = F5
+
+print (p)
+
+Step 9:
+
+
+
+Step 10:
+
+m=30
+p=ntm
+print (p)
+
+Step 11:
+
+
+
+Step 12:
+
+aimwePython filesutAaeeleayontes a Name Date modified
+HD Desktop Dh DLLs 23-Apr-18 1:56 PM
+B Dow ads B® Doc 23-Apr-18 1:56 PM
+“S] Recent Places Di include 23-Apr-18 1:54 PM
+DB Lib 23-Apr-18 1:56 PM
+4 BB Desktop Di libs 23-Apr-18 1:56 PM
+4 Libraries UD Scripts 23-Apr-18 1:57 PM
+[| Documents WD tel 23-Apr-18 1:56 PM
+d) Music \D Tools 23-Apr-18 1:56 PM
+
+Filename: demo|
+
+ 
+
+————
+
+Save as type: [Python files
+
+Step 13:
+
+==== RESTART: E:\PYTHON PROGRAM\BLOG\python posts\PROG 3 SU
+Enter Any Number for a =25
+
+Enter Any Number for b =30
+
+Sum of 25 and 30 is 955
+
+>>>
+
+SSSSSSSSSS========= RESTART: C:/Users/JNV/Desktop/demo.py =
+
+Step 14:
+
+= a all
+
+==== RESTART: E:\PYTHON PROGRAM\BLOG\python posts\PROG
+Enter Any Number for a =25
+Enter Any Number for b =30
+Sumiem® 25 and 30 as 55
+a>
+
+= SS RESTART: C:/Users/JINV/Desktop/deme
+
+Step 15:
+
+>>>
+==== RESTART: E:\PYTHON PROGRAM\BLOG\python posts\PROG 3
+Enter Any Number for a =25
+
+Enter Any Number for b =30
+
+Sum of 25 and 30 is 55
+
+PP >
+
+SSSSSSSSsssssss==== RESTART: C:/Users/JNV/Desktop/demo.py
+
+Step 16:
+
+fo]>>>
+
+ 
+   
+
+/demo.py
+50
+>>>
+
+ 
+
+RESTAR|? iprint (p)L@ Python 3.655 Shel -
+File_Edit_ Shell Debug Options Window Help
+
+ 
+
+ 
+
+Python 3.6.5 (v3.6.5:£59c0932b4, Mar 28 2018, 16
+07:46) [MSC v.1900 32 bit (Intel)] on win32
+
+Type "copyright", "credits" or "license()" for m4
+re information.
+
+>>>
+= RESTART: E:\PYTHON PROGRAM\BLOG\python post.
+\PROG 3 SUM OF 2 NOS.py =
+Enter Any Number for a =25
+Enter Any Number for b =30
+
+: C:/Users/JNV/Desktop
+
+Step 17:
+
+n=20 I
+m=30
+
+=n+m
+print (p)File Edit Format Run Options Window Help
+
+Step 18:
+
+PMvay Ma a
+
+Step 19:
+
+n= input (TEnter value for n=")
+m= input ("Enter value for |
+p=ntm
+
+print (p)
+
+Step 20:
+
+n= input ("Enter value for n=")
+m= input ("Enter value for m=")
+p=ntm
+
+print (p)
+
+Step 21:
+
+New File Ctrl+N value for n=")
+
+Open aR value for m=")
+Open Module... Alt+M
+
+Recent Files P
+
+Module Browser Alt+C
+
+Path Browser
+
+Save ty. Ctrl+Shift+S
+
+Save Copy As... Alt+Shift+S
+
+ 
+
+Print Window — Ctrl+P
+
+ 
+
+Close Alt+F4
+Exit Ctrl+QNew File Ctrl+N
+Open... Ctrl+O0
+Open Module... Alt+M
+Recent Files
+
+Module Browser Alt+C
+
+Path Browser
+
+Save hs... Ctrl+Shift+S
+Save Copy As... Alt+Shift+S
+
+ 
+
+Print Window — Ctrl+P
+
+ 
+
+ 
+
+Close Alt+F4
+Exit Ctrl+Q[File] Edit Format Run Options Window Help
+
+Step 22:
+
+pan === ~—
+print (p)or "license()" for mo
+
+SRAM\BLOG\python posts
+
+; C:/Users/JINV/Desktop
+
+Step 23:
+
+EMlel Ally Woilboe ft Let a ~ey
+Enter Any Number for b =30
+Sum of 25 and 30 as 55
+
+ 
+
+ae
+
+SSSSSSSSSSSSS====== RESTART: C:/Users/JNV/Desk
+/demo.py ====S=S===S=S=S=SSSSS===
+
+50
+
+>>>
+
+SeSSeSsssssssss===== RESTART: C:/Users/JNV/Desk
+/demo.py ====S=S=SS=S=SSSS=S=S====
+
+Enter value for n=50
+Enter value for m=20
+5020
+>>>
+
+Step 24:
+
+n= input("Enter value f
+m= input("Enter value f
+p=ntm
+
+print (p)File Edit Format Run Options Window Help
+= input ("Enter value
+m= input("Enter value f
+
+Step 25:
+
+n= input ("Enter value for n=")
+m= input ("Enter value for m=")
+p=n+m
+
+print (p)Python 3.6.5 (v3.6.5:£59c0932b4, Mar 28 2018, 16:
+07:46) [MSC v.1900 32 bit (Intel)] on win32
+
+Type "copyright", "credits" or "license()" for mo
+re information.
+
+>>>
+
+ 
+
+ 
+
+RESTART: E:\PYTHON PROGRAM\BLOG\python posts
+\PROG 3 SUM OF 2 NOS.py =
+Enter Any Number for a =25
+Enter Any Number for b =30
+Sum of 25 and 30 is 55
+
+ 
+
+>>>
+
+RESTAR'
+
+ 
+
+C:/Users/JNV/Desktop
+
+ 
+ 
+    
+
+RESTART: C:/Users/JNV/Desktop
+
+Enter value for n=50
+Enter value for m=20File Edit Shell
+
+Debug Options
+
+Window Helpn= input ("Enter value for n=")
+m= input ("Enter value for m=")
+
+Step 26:
+
+n= int(input("Enter value for n="))
+m= int (input ("Enter value for m=") [|
+p=ntm
+
+print (p)File Edit Format Run Options Window Help
+
+Step 27:
+
+ter value for n="))
+ter value for m=") )|New File Ctrl+N
+Open... Ctrl+O
+Open Module... Alt+M
+Recent Files
+
+Module Browser Alt+C
+PatlSrowser
+
+ 
+
+Save Ctrl+S
+Save As... Ctrl+Shift+S
+Save Copy As... Alt+Shift+S
+
+ 
+
+Print Window ~— Ctrl+P
+
+ 
+
+ 
+
+Close Alt+F4
+Exit Ctri+O0File[File] Edit Format Run Options Window Help
+
+Step 28:
+
+n= int (input ("Enter value for n="))
+m= int (input("Enter value for m=") )
+p=ntm
+
+print (p)File
+
+Edit Format Run
+
+Options Window Help
+
+Step 29:
+
+www.pythonprogramming.con= int (input("Enter value for n="))
+m= int(input ("Enter value for m="))
+p=ntm
+
+print (p)
+
+ 
+ 
+
+www.pythonprogramming.coFile
+
+Edit Format Run Options Window Help
+
+Step 30:
+
+n= int(input ("Enter value for n="))
+= int (input ("Enter value for m=") )
+p=ntm
+
+print (p)File
+
+Edit Format Run Options Window Help
+
+Step 31:
+
+n= int (ir Python Shell lue for n="))
+m= int (i Check Module Alt+X lue for m="))
+p=ntm
+
+print (p)Python Shell
+Check Module Alt+X
+
+Bie Medule 6&8File Edit Format Options Window Help
+
+Step 32:
+
+Enter value
+Enter value
+5020
+
+/demo.py =SS==S=S=SSSSSSSSS==
+
+Enter value
+Enter value
+70
+
+>>> |
+
+Step 33:
+
+NM— ANC (INpPUc{ Enter Valve Lor
+
+m= int(input("Enter value for
+p=nt+m
+
+print eee of * 5)sktop
+
+Step 34:
+
+n= int(input ("Enter value for n="))
+m= int (input ("Enter value for m=") )TIONS VWIndOW fFielrie cat rormet Aun VU
+
+Step 35:
+
+n= int (input ("Enter value for n="))
+m= int (input ("Enter value for m=") )
+p=ntm
+
+pein: ("sem of * ,n , * and *,m, "="p)File Edit Format Run Options Window Help
+
+Step 36:
+
+Tio boo €é CmEnter value for n=50
+Enter value for m=20
+70
+
+Enter value for n=
+
+Step 37:
+
+Enter value for m=20
+
+/demo.py =====S==S==S=SSS==S=S===
+Enter value for n=50
+
+Enter value for m=20
+
+Sum of 50 and 20 = 70
+
+>>> |
+
+Step 38:
+
+on | lo C6 Climtiie Vateteoe +4- 140
+i , fat.
+
+        
+ 
+
+ 
+
+www.pythonprogramming.co
+
+  
+
+Enter value for n=50
+Enter value for m=20
+Sum of 50 and 20 = 70
+>>> |
+
+Step 39:
+
+www.pythonprogramming.co
+
+Wi gi
+
+Step 40:
+
+SE  lUlU™™C~CU SG OOO
+www.pythonprogramming.co
+
+Step 41:
+
+SS #&§&3 + 735
+www.pythonprogramming.co
