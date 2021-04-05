@@ -33,7 +33,7 @@ This system produces a set of comprehensible, step-by-step instructions from vid
 ## Training with own dataset
  - prepare data(actions) by running `main.py`, remember to ***uncomment the code of data collecting***, the origin data will be saved as a `.txt`.
  - transforming the `.txt` to `.csv`, you can use EXCEL to do this.
- - do the training with the `trainig.py` in `Action/training/`, remember to ***change the action_enum and output-layer of model***.
+ - do the training with the `train.py` in `Action/training/`, remember to ***change the action_enum and output-layer of model***.
  
  
 ------
