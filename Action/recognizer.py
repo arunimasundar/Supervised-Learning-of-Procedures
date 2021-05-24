@@ -108,7 +108,11 @@ def output():
     prev=""
     counter=0
     dict_out={}
+    i=0
     for line in lines: 
+        # print(line.strip(),"    ",prev,"    ",i,"   ",counter)
+        # print("\n",dict_out)
+        i+=1
         #print("line{}: {}".format(count, line.strip()))
         #print(line.strip())
         if strcmp == "first":
@@ -119,34 +123,35 @@ def output():
         if line.strip() == prev:
             counter=counter+1
         else:
-            if counter >= 5:
-                if line.strip() in dict_out:
+            if counter >= 4:
+                if prev.strip() in dict_out:
                     dict_out[prev.strip()]+=1
                 else:
                     dict_out[prev.strip()]=1
             counter=0
         prev=line.strip()
+
         #print(counter)
         #print(prev)
     if line.strip() in dict_out:
         dict_out[prev.strip()]+=(counter//5)
     else:
         dict_out[prev.strip()]=(counter//5)+1
-    print(dict_out)
+    # print(dict_out)
     #print("end")
     f.close()
     f=open("exercise_video_output.txt",'a+')
     fs=open("speechtotext.txt",'r+')
     speech=fs.read()
-    print("The exercises performed in this exercise video are:\n")
+    # print("The exercises performed in this exercise video are:\n")
     f.write("The exercises performed in this exercise video are:")
     f.write("\n")
     for key in dict_out:
         if dict_out[key]>=1:
-            print(key)
+            # print(key)
             f.write(key)
             f.write("\n")
-            print("\n")
+            # print("\n")
     f.write("\n")
     f.write("Instructions from the trainer:")
     f.write("\n")
