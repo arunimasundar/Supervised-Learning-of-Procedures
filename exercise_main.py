@@ -31,11 +31,10 @@ def exercise(video):
     # print(video)
     
 
-    # 导入相关模型
     estimator = load_pretrain_model('VGG_origin')
     action_classifier = load_action_premodel('Action/sjphk_recognition.h5')
 
-    # 参数初始化
+   
     realtime_fps = '0.0000'
     start_time = time.time()
     fps_interval = 1
@@ -48,6 +47,10 @@ def exercise(video):
         cap=choose_run_mode(video)
         video_writer = set_video_writer(cap, write_fps=int(7.0))
         print("videowriter: ",video_writer)
+
+        file = open("speechtotext.txt","r+")
+        file. truncate(0)
+        file. close()
 
     
     else:
@@ -71,7 +74,7 @@ def exercise(video):
     file1.truncate(0)
     file1.close()
 
-    # f = open('highknees_data.txt', 'a+')
+    f = open('highknees_data.txt', 'a+')
 
     while cv.waitKey(1) < 0:
         has_frame, show = cap.read()
@@ -111,12 +114,13 @@ def exercise(video):
             video_writer.write(show)
 
             
-            # joints_norm_per_frame = np.array(pose[-1]).astype(np.str)
-            # f.write(' '.join(joints_norm_per_frame))
-            # f.write('\n')
+            joints_norm_per_frame = np.array(pose[-1]).astype(np.str)
+            f.write(' '.join(joints_norm_per_frame))
+            f.write('\n')
 
     video_writer.release()
     cap.release()
+    cv.destroyAllWindows()
     # f.close()
 
     output()
