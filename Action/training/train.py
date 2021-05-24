@@ -114,13 +114,13 @@ def plot_confusion_matrix(cm, classes,
 
 
 # load data
-raw_data = pd.read_csv('4acts-highknees.csv', header=0)
+raw_data = pd.read_csv('4actsnew.csv', header=0)
 dataset = raw_data.values
 # X = dataset[:, 0:36].astype(float)
 # Y = dataset[:, 36]
 #3289
-X = dataset[0:2012, 0:36].astype(float)  # run
-Y = dataset[0:2012, 36]
+X = dataset[0:2024, 0:36].astype(float)  # run
+Y = dataset[0:2024, 36]
 
 
 # encoder = LabelEncoder()
@@ -128,7 +128,7 @@ Y = dataset[0:2012, 36]
 # print(encoder_Y[0], encoder_Y[900], encoder_Y[1800], encoder_Y[2700])
 # encoder_Y = [0]*744 + [1]*722 + [2]*815 + [3]*1008 + [4]*811
 # encoder_Y = [0]*744 + [1]*722 + [2]*815 + [3]*1008
-encoder_Y=[0]*445+ [1]*715+ [2]*351+ [3]*501
+encoder_Y=[0]*445+ [1]*715+ [2]*351+ [3]*513
 # one hot 编码
 dummy_Y = np_utils.to_categorical(encoder_Y)
 
@@ -151,7 +151,7 @@ model.compile(loss='categorical_crossentropy', optimizer=Adam(0.0001), metrics=[
 model.fit(X_train, Y_train, batch_size=32, epochs=20, verbose=1, validation_data=(X_test, Y_test), callbacks=[his])
 model.summary()
 his.loss_plot('epoch')
-model.save('sjpos_recognition.h5')
+model.save('sjphknew_recognition.h5')
 
 # evaluate and draw confusion matrix
 print('Test:')
@@ -160,16 +160,16 @@ print('Test Score:{:.3}'.format(score))
 print('Test accuracy:{:.3}'.format(accuracy))
 # confusion matrix
 Y_pred = model.predict(X_test)
-    cfm = confusion_matrix(np.argmax(Y_test,axis=1), np.argmax(Y_pred, axis=1))
-    np.set_printoptions(precision=2)
+cfm = confusion_matrix(np.argmax(Y_test,axis=1), np.argmax(Y_pred, axis=1))
+np.set_printoptions(precision=2)
 
-    plt.figure()
-    class_names = ['squat','jumpingjacks','pushups','highknees']
-    plot_confusion_matrix(cfm, classes=class_names, title='Confusion Matrix')
-    plt.show()
+plt.figure()
+class_names = ['squat','jumpingjacks','pushups','highknees']
+plot_confusion_matrix(cfm, classes=class_names, title='Confusion Matrix')
+plt.show()
 
 # test
-model = load_model('sjpos_recognition.h5')
+model = load_model('sjphknew_recognition.h5')
 
 test_input = [0.43, 0.46, 0.43, 0.52, 0.4, 0.52, 0.39, 0.61, 0.4,
               0.67, 0.46, 0.52, 0.46, 0.61, 0.46, 0.67, 0.42, 0.67,
